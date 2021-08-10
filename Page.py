@@ -1,4 +1,6 @@
+import logging
 import Config
+import time
 class WebPage():
     def __init__(self, driver, conf=None):
         "CONFIG"
